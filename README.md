@@ -1,6 +1,6 @@
 # Meter-Data-Cleaning-and-Pipeline-Integration
 
-> Security note: this repository processes internal meter-testing data. The raw files and generated outputs may contain meter serial numbers, test values, and other operational details that should be treated as sensitive/internal information. Do not upload raw data or output files to public repositories without approval.
+> This repository is intended for internal data processing and portfolio demonstration. The raw files and generated outputs may contain operational test data, so they are excluded from public commits by default.
 
 The project reads messy raw data from CSV files and extracts serial numbers, FL/LL values. It cleans and resolves duplicate extracted records and resolve data conflicts and unresolved rows for manual review. It will update .csv and .xlxs files with the cleaned values.
 
